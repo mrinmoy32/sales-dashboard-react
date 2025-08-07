@@ -1,0 +1,52 @@
+/* Tile.css */
+
+/* Styles for the tile container */
+.tile {
+    display: flex;
+    flex-direction: column;
+    padding: 20px;
+    
+  }
+  
+  /* Define tile colors based on the color prop */
+  .tile.blue {
+    color: white;
+  }
+  
+  .tile.red {
+   
+    color: white;
+  }
+  
+  .tile.green {
+    color: white;
+  }
+  
+  .tile.purple {
+    color: white;
+  }
+  
+  /* Styles for the icon */
+  .tile-icon img {
+    width: 40px; /* Adjust the icon size as needed */
+    height: 40px;
+  }
+  
+  /* Styles for the title */
+  .tile-title {
+    font-size: 18px;
+    margin-top: 10px;
+  }
+  
+  /* Styles for the value */
+  .tile-value {
+    font-size: 24px;
+    font-weight: bold;
+    margin-top: 5px;
+  }
+  
+  /* Hover effect */
+  .tile:hover {
+    transform: scale(1.05);
+  }
+  

@@ -1,0 +1,31 @@
+/* SalesVsInvestmentTrend.css */
+
+/* Style the chart container */
+.chart-container {
+    position: relative;
+    width: 100%;
+    max-width: 800px; /* Adjust the maximum width as needed */
+    margin: 0 auto; /* Center the chart horizontally */
+  }
+  
+  /* Style the canvas element (the chart itself) */
+  canvas {
+    background-color: white;
+    border: 1px solid #ddd; /* Add a border for separation */
+  }
+  
+  /* Style chart title */
+  h2 {
+    text-align: center;
+    font-size: 1.5rem;
+    margin-bottom: 20px;
+  }
+  
+  /* Add responsive styles for smaller screens */
+  @media (max-width: 768px) {
+    /* Adjust styles for smaller screens here */
+    .chart-container {
+      max-width: 100%; /* Use full width on smaller screens */
+    }
+  }
+  
